@@ -11,8 +11,15 @@ A simple Node.js Express application.
 - `GET /health`
 
 ## Current Release
-v2.3.0
-Production Deployment
+v2.3.0  
+Production Deployment - Ready for Release
+
+## Release Documentation
+- Complete Operational Pack: [`RELEASE_READINESS.md`](./RELEASE_READINESS.md)
+- Deployment Approvals: [`release/approvals.yml`](./release/approvals.yml)
+- Deployment Config: [`release/deployment-config.yml`](./release/deployment-config.yml)
+- Rollback Strategy: [`release/rollback.yml`](./release/rollback.yml)
+- Release Summary: [`release/release-summary.yml`](./release/release-summary.yml)
 
 ## Getting Started
 
@@ -55,5 +62,6 @@ Make your changes and push them back to the repository.
 ├── scripts/
 ├── Dockerfile
 ├── docker-compose.yml
+├── RELEASE_READINESS.md
 └── README.md
 ```
